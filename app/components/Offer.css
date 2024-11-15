@@ -1,0 +1,81 @@
+/* Offer container */
+.offer-container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .offer-container-md {
+    background-image: url('/offerBg.png');
+    height: 70vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Text container */
+  .offer-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+  
+  /* Title */
+  .offer-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .offer-title-xl {
+    font-size: 4rem;
+  }
+  
+  /* Paragraph */
+  .offer-description {
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  /* Button */
+  .offer-button {
+    background-color: #f87171; /* Tailwind red */
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offer-button:hover {
+    background-color: #ea4b3b; /* Darker red */
+  }
+  
+  /* Image container */
+  .offer-image-container {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  
+  /* Media query for medium screens */
+  @media (min-width: 768px) {
+    .offer-title {
+      font-size: 4rem; /* Larger font size for medium screens */
+    }
+  
+    .offer-description {
+      font-size: 1.5rem;
+    }
+  
+    .offer-title-xl {
+      font-size: 6rem;
+    }
+  }
+  

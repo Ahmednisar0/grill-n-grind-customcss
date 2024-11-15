@@ -1,0 +1,36 @@
+/* Menu button for opening and closing */
+.menu-button {
+    cursor: pointer;
+  }
+  
+  /* Menu dropdown styles */
+  .menu-dropdown {
+    background-color: #f87171; /* Red background */
+    color: white;
+    position: absolute;
+    top: 6rem; /* Adjust as per your header height */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.875rem; /* 3xl text size */
+    z-index: 10;
+  }
+  
+  /* Links inside the dropdown */
+  .menu-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.875rem; /* 3xl text size */
+    text-transform: capitalize;
+  }
+  
+  /* Cart and login button styles */
+  .menu-link:hover {
+    text-decoration: underline;
+  }
+  

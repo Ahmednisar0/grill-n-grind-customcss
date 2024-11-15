@@ -1,0 +1,22 @@
+/* Notifications bar container */
+.notifications-bar {
+    height: 3rem; /* Mobile height */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem; /* Mobile text size */
+    text-align: center;
+    cursor: pointer;
+    background-color: #f87171; /* Red background */
+    color: white;
+  }
+  
+  /* Increase font size on medium screens */
+  @media (min-width: 768px) {
+    .notifications-bar {
+      font-size: 1rem; /* Base font size on larger screens */
+    }
+  }
+  

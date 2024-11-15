@@ -1,0 +1,25 @@
+.cart-icon {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .cart-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cart-icon span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .cart-icon:hover {
+    color: #ff4500;
+  }
+  
+  .cart-icon span {
+    color: #ff4500;
+  }
+  

@@ -1,0 +1,18 @@
+.countdown {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fbbf24; /* Yellow color */
+  }
+  
+  .countdown span {
+    color: #f59e0b;
+    font-size: 4rem; /* Larger font for countdown time */
+  }
+  
+  .countdown span::before {
+    content: "Time Left: ";
+    font-weight: normal;
+    font-size: 2rem;
+    color: #fbbf24;
+  }
+  

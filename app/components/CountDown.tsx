@@ -1,5 +1,6 @@
 "use client"; // Ensure this is a client component
 import React, { useState, useEffect } from "react";
+import "./CountDown.css"; // Import the corresponding CSS file
 
 const CountDown = () => {
   // Set the target date and time in PKT (UTC+5)
@@ -28,7 +29,7 @@ const CountDown = () => {
   const s = Math.floor((timeLeft / 1000) % 60);
 
   return (
-    <span className="font-bold text-5xl text-yellow-300">
+    <span className="countdown">
       {d}:{h}:{m}:{s}
     </span>
   );

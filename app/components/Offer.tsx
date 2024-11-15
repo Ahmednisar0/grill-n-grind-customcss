@@ -1,22 +1,23 @@
 import Image from "next/image";
 import React from "react";
 import CountDown from "./CountDown";
+import './Offer.css'; // Import the CSS file
 
 const Offer = () => {
   return (
-    <div className="bg-black h-screen flex flex-col md:flex-row md:justify-between md:bg-[url('/offerBg.png')] md:h-[70vh]">
+    <div className="offer-container offer-container-md">
       {/* TEXT CONTAINER */}
-      <div className="flex-1 flex flex-col justify-center items-center text-center gap-8 p-6">
-        <h1 className="text-white text-5xl font-bold xl:text-6xl">Delicious Burger & French Fry</h1>
-        <p className="text-white xl:text-xl">
+      <div className="offer-text-container">
+        <h1 className="offer-title offer-title-xl">Delicious Burger & French Fry</h1>
+        <p className="offer-description">
           Progressively simplify effective e-toilers and process-centric methods
           of empowerment. Quickly pontificate parallel.
         </p>
-        <CountDown/>
-        <button className="bg-red-500 text-white rounded-md py-3 px-6">Order Now</button>
+        <CountDown />
+        <button className="offer-button">Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
-      <div className="flex-1 w-full relative md:h-full">
+      <div className="offer-image-container">
         <Image src="/images/offerProduct.png" alt="" fill className="object-contain" />
       </div>
     </div>

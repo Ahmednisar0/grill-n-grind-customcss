@@ -1,0 +1,63 @@
+/* Price Component */
+.price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .price-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .options-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .option-button {
+    min-width: 6rem;
+    padding: 0.5rem;
+    border: 1px solid #f87171;
+    border-radius: 0.375rem;
+  }
+  
+  .option-button-selected {
+    background-color: rgb(248 113 113);
+    color: white;
+  }
+  
+  .quantity-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #f87171;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    cursor: pointer;
+  }
+  
+  .cart-button {
+    text-transform: uppercase;
+    width: 14rem;
+    background-color: #f87171;
+    color: white;
+    padding: 0.75rem;
+    border: 1px solid #f87171;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-button:hover {
+    background-color: #ea4b3b;
+  }
+  

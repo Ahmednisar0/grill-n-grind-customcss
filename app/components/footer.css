@@ -1,0 +1,21 @@
+/* Footer container */
+.footer {
+    height: 3rem; /* 12px on small screens, 24px on larger screens */
+    padding: 1rem;
+    color: #f87171; /* Red text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Link styling */
+  .footer-link {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  /* Text for copyright */
+  .footer-text {
+    font-size: 1rem;
+  }
+  
